@@ -1,0 +1,26 @@
+{
+  "name": "myportfoliosite",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://sharathnaik.github.io/Resume/",
+  "dependencies": {
+    "chroma-js": "^2.0.4",
+    "gh-pages": "^2.0.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-mdl": "^1.11.0",
+    "react-muuri": "^0.3.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.0",
+    "react-select": "^3.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
