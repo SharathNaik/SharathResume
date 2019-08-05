@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Grid, Cell, ProgressBar } from 'react-mdl';
 
 class CustomBanners extends Component {
   render() {

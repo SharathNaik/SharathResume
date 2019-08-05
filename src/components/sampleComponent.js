@@ -10,6 +10,7 @@ import Select from 'react-select';
 import CustomBanners from './customBanners';
 
 var sortOrder = 'descending';
+var sortByCategory = '';
 
 const colourOptions = [
   { value: '', label: 'Choose', color: 'black'},
@@ -22,9 +23,11 @@ const colourOptions = [
 ];
 
 const sortOptions = [
+  { value: '', label: 'Choose' },
   { value: 'data-title', label: 'Title' },
   { value: 'data-year', label: 'Year' }
-]
+];
+
 
 const dot = (color = '#ccc') => ({
   alignItems: 'center',
@@ -81,9 +84,9 @@ class SampleComponent extends Component {
     super();
 
     this.state = {
-      selectedOptionFilter: null,
-      selectedOptionSort:null
-    };
+      selectedFilter: {},//null,
+      selectedSort:{}//null
+    }
 
     this.sorting = this.sorting.bind(this);
 
@@ -92,7 +95,9 @@ class SampleComponent extends Component {
 
 
   handleChangeFilter = selectedOptionFilter => {
-    this.setState({ selectedOptionFilter });
+    this.setState(state => ({
+      selectedFilter: selectedOptionFilter
+    }));
     //console.log(`Option selected:`, selectedOption);
 
     this.filtering(selectedOptionFilter.value);
@@ -100,7 +105,9 @@ class SampleComponent extends Component {
   };
 
   handleChangeSort = selectedOptionSort => {
-    this.setState({ selectedOptionSort });
+    this.setState(state => ({
+       selectedSort : selectedOptionSort
+    }));
 
     this.sorting(selectedOptionSort.value);
     
@@ -125,8 +132,9 @@ class SampleComponent extends Component {
   }
 
   sorting(option){
+    sortByCategory = option;
     if (this.gridElement && this.gridElement.children.length) {
-      if(sortOrder == 'descending'){
+      if(sortOrder === 'descending'){
         sortOrder = 'ascending';
         this.grid.getMethod('sort',this.compareItemColor);
       }else{
@@ -145,9 +153,9 @@ class SampleComponent extends Component {
 
 
   compareItemColor(a, b) {
-    var aVal = a.getElement().getAttribute('data-color') || '';
-    var bVal = b.getElement().getAttribute('data-color') || '';
-    if(sortOrder == 'descending'){
+    var aVal = a.getElement().getAttribute(sortByCategory) || '';
+    var bVal = b.getElement().getAttribute(sortByCategory) || '';
+    if(sortOrder === 'descending'){
       return aVal < bVal ? -1 :  1;
     }else{
       return aVal > bVal ? -1 :  1;
@@ -156,41 +164,38 @@ class SampleComponent extends Component {
 
   render () {
 
-    const { selectedOptionFilter,selectedOptionSort } = this.state;
-
     return (
       <div>
+
+
+        <div style={{width: '50%', margin: 'auto',position:'relative'}}>
+              <Grid>
+                <Cell col={6}>
+                  <Select 
+                    className="dropdownOpt"
+                    defaultValue={colourOptions[0]}
+                    label="Filterer"
+                    options={colourOptions}
+                    styles={colourStyles}
+                    onChange={this.handleChangeFilter}
+                  />
+                </Cell>
+                <Cell col={6}>
+                  <Select 
+                    className="dropdownOpt"
+                    defaultValue={sortOptions[0]}
+                    label="Sorter"
+                    options={sortOptions}
+                    onChange={this.handleChangeSort}
+                  />  
+                </Cell>
+              </Grid>
+        </div>
+
+
         {/* Assign a ref to the grid container so the virtual DOM will ignore it for now (WIP). */}
-        <div ref={gridElement => this.gridElement = gridElement}>
+        <div ref={gridElement => this.gridElement = gridElement} style={{position:'relative'}}>
           {/* Required: `item` and `item-content` classNames */}
-
-          <div style={{width: '50%', margin: 'auto'}}>
-            
-            
-            <Grid>
-              <Cell col={6}>
-                <Select 
-                  className="dropdownOpt"
-                  defaultValue={colourOptions[0]}
-                  label="Filterer"
-                  options={colourOptions}
-                  styles={colourStyles}
-                  onChange={this.handleChangeFilter}
-                />
-              </Cell>
-              <Cell col={6}>
-                <Select 
-                  className="dropdownOpt"
-                  defaultValue={sortOptions[0]}
-                  label="Sorter"
-                  options={sortOptions}
-                  onChange={this.handleChangeSort}
-                />  
-              </Cell>
-            </Grid>
-
-          </div>
-
 
             {/* Developer Programs */}
             <CustomBanners dataColor="#00B8D9" dataTitle="achievement" dataHeader="Microsoft Student Partner's" dataYear="2013"/>
