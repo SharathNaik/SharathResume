@@ -7,11 +7,12 @@ class LandingPage extends Component {
         return (
             <div style={{width:'100%',margin:'auto'}}>
                 <Grid className="landing-grid">
-                    <Cell col={12}>
+                    <Cell col={12} style={{paddingTop:'4em'}}>
                         <img 
-                        src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
-                        alt="avatar"
-                        className="avatar-img"/>
+                            src={"images/sharathM.JPG"}//"https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
+                            alt="avatar"
+                            className="avatar-img"
+                        />
 
                         <div className="banner-text">
                             <h1>SharePoint Designer & Developer</h1>

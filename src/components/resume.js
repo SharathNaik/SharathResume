@@ -12,15 +12,15 @@ class Resume extends Component {
             <div>
                 <Grid>
                     <Cell col={4}>
-                        <div style={{textAlign: 'center'}}>
+                        <div style={{textAlign: 'center',paddingTop:'4em'}}>
                         <img
-                            src="../../../public/images/sharathM.JPG"//src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
+                            src={"images/sharathM.JPG"}//src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
                             alt="avatar"
-                            style={{height: '200px'}}
-                            />
+                            style={{height: '200px',borderRadius:'20%'}}
+                        />
                         </div>
 
-                        <h2 style={{paddingTop: '2em'}}>Sharath M</h2>
+                        <h2 style={{paddingTop: '1em'}}>Sharath M</h2>
                         <h4 style={{color: 'grey'}}>Sharepoint Designer and Develoepr</h4>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
                         <p>Myself Sharath, I have been working in IT industry for around 5.7years. My expertise lies in the Sharepoint domain and been working with latest technology.</p>

@@ -7,6 +7,13 @@ class Projects extends Component {
     constructor(props){
         super(props);
         this.state = {activeTab:0};
+
+        this.butClick = this.butClick.bind(this);
+    }
+
+
+    butClick(event){
+      console.log('clicked');
     }
 
     toggleCategories() {
@@ -23,7 +30,7 @@ class Projects extends Component {
                   This website is built using ReactJS.
                 </CardText>
                 <CardActions border>
-                  <Button colored>GitHub</Button>
+                  <Button onClick={(e)=>this.butClick(e)} colored>GitHub</Button>
                   <Button colored>CodePen</Button>
                   <Button colored>Live Demo</Button>
                 </CardActions>

@@ -13,7 +13,7 @@ var sortOrder = 'descending';
 var sortByCategory = '';
 
 const colourOptions = [
-  { value: '', label: 'Choose', color: 'black'},
+  { value: 'knowledge', label: 'Choose', color: 'black'},
   { value: 'achievement', label: 'LeaderShip', color: '#00B8D9' ,isFixed: true},
   { value: 'apps-android', label: 'Android Apps', color: '#0052CC'},//isDisabled: true 
   { value: 'apps-windowsPhone', label: 'Windows Phone Apps', color: '#5243AA' },
