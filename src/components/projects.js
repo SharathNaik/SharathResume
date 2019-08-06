@@ -12,8 +12,9 @@ class Projects extends Component {
     }
 
 
-    butClick(event){
-      console.log('clicked');
+    butClick(event,link){
+      //console.log('clicked');
+      window.open(link,'_blank');
     }
 
     toggleCategories() {
@@ -24,15 +25,14 @@ class Projects extends Component {
             
             <div className="projects-grid">
               {/* Project 1 */}
-              <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+              <Card shadow={5} style={{minWidth: '450', margin: 'auto',borderRadius:'10%'}}>
                 <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >Resume ReactJS</CardTitle>
                 <CardText>
                   This website is built using ReactJS.
                 </CardText>
                 <CardActions border>
-                  <Button onClick={(e)=>this.butClick(e)} colored>GitHub</Button>
-                  <Button colored>CodePen</Button>
-                  <Button colored>Live Demo</Button>
+                  <Button className="floaterLeft" onClick={(e)=>this.butClick(e,'https://github.com/SharathNaik/Resume')} colored>GitHub</Button>
+                  <Button className="floaterRight" onClick={(e)=>this.butClick(e,'https://sharathnaik.github.io/Resume/')} colored>Live Demo</Button>
                 </CardActions>
                 <CardMenu style={{color: '#fff'}}>
                   <IconButton name="share" />
@@ -40,15 +40,14 @@ class Projects extends Component {
               </Card>
     
               {/* Project 2 */}
-              <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+              <Card shadow={5} style={{minWidth: '450', margin: 'auto',borderRadius:'10%'}}>
                 <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >Bootstrap Website</CardTitle>
                 <CardText>
                   This website is built using Bootstrap 4.
                 </CardText>
                 <CardActions border>
-                  <Button colored>GitHub</Button>
-                  <Button colored>CodePen</Button>
-                  <Button colored>Live Demo</Button>
+                  <Button className="floaterLeft" onClick={(e)=>this.butClick(e,'https://github.com/SharathNaik/Promo')} colored>GitHub</Button>
+                  <Button className="floaterRight" onClick={(e)=>this.butClick(e,'https://sharathnaik.github.io/Promo')} colored>Live Demo</Button>
                 </CardActions>
                 <CardMenu style={{color: '#fff'}}>
                   <IconButton name="share" />
@@ -62,15 +61,13 @@ class Projects extends Component {
           return (
             <div className="projects-grid">
               {/* Project 1 */}
-              <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+              <Card shadow={5} style={{minWidth: '450', margin: 'auto',borderRadius:'10%'}}>
                 <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >UrgeBlood</CardTitle>
                 <CardText>
                   This website is built using Ionic-Cordova for Android.
                 </CardText>
                 <CardActions border>
-                  <Button colored>GitHub</Button>
-                  <Button colored>CodePen</Button>
-                  <Button colored>Live Demo</Button>
+                  <Button className="floaterCenter" onClick={(e)=>this.butClick(e,'https://play.google.com/store/apps/details?id=com.sharath.urgeblood&hl=en')} colored>Live Demo</Button>
                 </CardActions>
                 <CardMenu style={{color: '#fff'}}>
                   <IconButton name="share" />
@@ -78,15 +75,13 @@ class Projects extends Component {
               </Card>
     
               {/* Project 2 */}
-              <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+              <Card shadow={5} style={{minWidth: '450', margin: 'auto',borderRadius:'10%'}}>
                 <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >Mind Reader</CardTitle>
                 <CardText>
                   This website is built using pure Java Native code.
                 </CardText>
                 <CardActions border>
-                  <Button colored>GitHub</Button>
-                  <Button colored>CodePen</Button>
-                  <Button colored>Live Demo</Button>
+                  <Button className="floaterCenter" onClick={(e)=>this.butClick(e,'https://play.google.com/store/apps/details?id=com.sharath.mind&hl=en')} colored>Live Demo</Button>
                 </CardActions>
                 <CardMenu style={{color: '#fff'}}>
                   <IconButton name="share" />

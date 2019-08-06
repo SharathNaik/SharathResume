@@ -160,4 +160,18 @@ margin: auto;
 .dropdownOpt{
     z-index: 1;
 }
+
+.floaterLeft{
+    float: left;
+    margin-left: 10% !important;
+}
+
+.floaterRight{
+    float: right;
+    padding-right: 10% !important;
+}
+
+.floaterCenter{
+    margin-left: 35% !important;
+}
 /* Select Componen CSS End */
