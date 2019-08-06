@@ -92,7 +92,7 @@ class Projects extends Component {
 
         } else if(this.state.activeTab === 2) {
           return (
-            <div><h1>This is VueJS</h1></div>
+            <div></div>
           )
         }
     

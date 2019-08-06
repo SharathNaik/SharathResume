@@ -15,7 +15,8 @@
     background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     text-align: center;
-    position:fixed;
+    /*position:fixed;*/
+    position:relative;
     top: 0;
     left:0;
     width:100%;
@@ -83,7 +84,7 @@
 
 .contact-body {
 margin: auto;
-    position: fixed;
+    position: relative;
     width: 100%;
     height: 100%;
     justify-content: center;
@@ -125,7 +126,7 @@ margin: auto;
 }
   
   
-  /* Contact Page CSS End */
+/* Contact Page CSS End */
 
 
 /* Resume Page CSS Start */
@@ -133,6 +134,10 @@ margin: auto;
     background: #27221F;
     color: white;
     padding: 2em;
+}
+
+.skillspan{
+    width:5%;
 }
 /* Resume page CSS End */
 
@@ -145,7 +150,7 @@ margin: auto;
     background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     text-align: center;
-    position:fixed;
+    position:relative;
     top: 0;
     left:0;
     width:100%;
@@ -158,7 +163,7 @@ margin: auto;
 
 /* Select Componen CSS Start */
 .dropdownOpt{
-    z-index: 1;
+    /*z-index: 1;*/
 }
 
 .floaterLeft{
@@ -175,3 +180,75 @@ margin: auto;
     margin-left: 35% !important;
 }
 /* Select Componen CSS End */
+
+
+
+/* Media Queries Start*/
+
+@media (max-width: 767px) { 
+    
+    .banner-text h1{
+        font-size:30px;
+    }
+
+    .social-links{
+        width:100%;
+    }
+
+    .skillspan{
+        width:45%;
+    }
+
+    .aboutme-grid{
+        height: auto;
+    }
+
+    .item {
+        color: white;
+        cursor: pointer;
+        height: 70px !important;
+        margin: 8% !important;
+        position: absolute;
+        width: 60% !important;
+        border: 1px solid #d4d4d5;
+        border-radius: 6% !important;
+        margin-left: 17% !important;
+        margin-right: 15% !important;
+        padding: 5% !important;
+    }
+
+    .custListItem{
+        width:100%;
+    }
+
+    .custListItem span {
+        width:100%;
+    }
+
+    .iItem{
+        width:100%;
+    }
+
+    .contact-list .contact-list-content{
+        font-size:20px;
+    }
+    
+    .projects-grid{
+        display: table;
+    }
+
+    .projects-grid > div:first-child {
+        margin-bottom: 5% !important;
+    }
+
+    .category-tabs > div:first-child {
+        padding-top:10% !important;
+    }
+
+    .dropGrid {
+        width:90% !important;
+        padding-top: 10% !important;
+    }
+}
+
+/* Media Queries End */

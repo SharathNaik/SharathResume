@@ -168,7 +168,7 @@ class SampleComponent extends Component {
       <div>
 
 
-        <div style={{width: '50%', margin: 'auto',position:'relative'}}>
+        <div className="dropGrid" style={{width: '50%', margin: 'auto',position:'relative'}}>
               <Grid>
                 <Cell col={6}>
                   <Select 
