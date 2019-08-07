@@ -90,10 +90,6 @@ class Projects extends Component {
             </div>
           )
 
-        } else if(this.state.activeTab === 2) {
-          return (
-            <div></div>
-          )
         }
     
       }
@@ -105,7 +101,6 @@ class Projects extends Component {
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({activeTab:tabId})} ripple>
                     <Tab>Web</Tab>
                     <Tab>Android</Tab>
-                    <Tab>Windows</Tab>
                 </Tabs>
 
                 <Grid>

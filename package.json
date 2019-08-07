@@ -2,7 +2,7 @@
   "name": "myportfoliosite",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sharathnaik.github.io/Resume/",
+  "homepage": "https://sharathnaik.github.io/SharathResume/",
   "dependencies": {
     "chroma-js": "^2.0.4",
     "gh-pages": "^2.0.1",
