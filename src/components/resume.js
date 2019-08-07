@@ -14,7 +14,7 @@ class Resume extends Component {
                     <Cell col={4}>
                         <div style={{textAlign: 'center',paddingTop:'4em'}}>
                         <img
-                            src={`${process.env.PUBLIC_URL}/images/sharathM.JPG`}//src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
+                            src="https://sharathnaik.github.io/SharathResume/images/sharathM.JPG"
                             alt="avatar"
                             style={{height: '200px',borderRadius:'20%'}}
                         />

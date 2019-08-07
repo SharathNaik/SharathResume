@@ -9,7 +9,7 @@ class LandingPage extends Component {
                 <Grid className="landing-grid">
                     <Cell col={12} style={{paddingTop:'4em'}}>
                         <img 
-                            src={`${process.env.PUBLIC_URL}/images/sharathM.JPG`}//"https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
+                            src="https://sharathnaik.github.io/SharathResume/images/sharathM.JPG"
                             alt="avatar"
                             className="avatar-img"
                         />
