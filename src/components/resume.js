@@ -21,9 +21,9 @@ class Resume extends Component {
                         </div>
 
                         <h2 style={{paddingTop: '1em'}}>Sharath M</h2>
-                        <h4 style={{color: 'grey'}}>Sharepoint Designer and Develoepr</h4>
+                        <h4 style={{color: 'grey'}}>Sharepoint Designer and Developer</h4>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-                        <p>Myself Sharath, I have been working in IT industry for around 5.7years. My expertise lies in the Sharepoint domain and been working with latest technology.</p>
+                        <p>Myself Sharath, I have been working in IT industry for around 5 years. My professional expertise lies in the Sharepoint domain. I have been exploring Mobile App development as well as Web Application development.</p>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
                         <h5>Address</h5>
                         <p>B.Channasandra, Bangalore</p>
@@ -45,21 +45,21 @@ class Resume extends Component {
                             startYear={2013}
                             endYear={2016}
                             jobName="Technical Associate, Unisys India"
-                            jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                            jobDescription="Got Oporunity to work on Server Side OM(SSOM), Client Side OM(CSOM), JavaScript OM(JSOM), Jquery, Sharepoint Designer"
                         />
 
                         <Experience
                             startYear={2016}
                             endYear={2018}
                             jobName="Associate Consultant, Cognizant India"
-                            jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                            jobDescription="Got Oporunity to work on SharePoint Hosted App, JSOM , Page and Master Page customization using SP Designer"
                         />
 
                         <Experience
                             startYear={2018}
                             endYear={'Till'}
                             jobName="Consultant B2, Capgemini India"
-                            jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                            jobDescription="Got Oporunity to work on SPFx, SharePoint Hosted App, Console Applications"
                         />
 
                         <hr style={{borderTop: '3px solid #e22947'}} />

@@ -14,7 +14,7 @@ var sortByCategory = '';
 
 const colourOptions = [
   { value: 'knowledge', label: 'Choose', color: 'black'},
-  { value: 'achievement', label: 'LeaderShip', color: '#00B8D9' ,isFixed: true},
+  { value: 'achievement', label: '', color: '#00B8D9' ,isFixed: true},
   { value: 'apps-android', label: 'Android Apps', color: '#0052CC'},//isDisabled: true 
   { value: 'apps-windowsPhone', label: 'Windows Phone Apps', color: '#5243AA' },
   { value: 'apps-windows10', label: 'Windows 10 Apps', color: '#FF5630' },//, isFixed: true
@@ -118,7 +118,7 @@ class SampleComponent extends Component {
     this.grid = new MuuriGrid({
       node: this.gridElement,
       defaultOptions: {
-        dragEnabled: true // See Muuri's documentation for other option overrides.
+        dragEnabled: false // See Muuri's documentation for other option overrides.
       },
     });
 

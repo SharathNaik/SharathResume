@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 
-import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
+import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button } from 'react-mdl';
 
 class Projects extends Component {
 
@@ -34,9 +34,6 @@ class Projects extends Component {
                   <Button className="floaterLeft" onClick={(e)=>this.butClick(e,'https://github.com/SharathNaik/Resume')} colored>GitHub</Button>
                   <Button className="floaterRight" onClick={(e)=>this.butClick(e,'https://sharathnaik.github.io/Resume/')} colored>Live Demo</Button>
                 </CardActions>
-                <CardMenu style={{color: '#fff'}}>
-                  <IconButton name="share" />
-                </CardMenu>
               </Card>
     
               {/* Project 2 */}
@@ -49,9 +46,6 @@ class Projects extends Component {
                   <Button className="floaterLeft" onClick={(e)=>this.butClick(e,'https://github.com/SharathNaik/Promo')} colored>GitHub</Button>
                   <Button className="floaterRight" onClick={(e)=>this.butClick(e,'https://sharathnaik.github.io/Promo')} colored>Live Demo</Button>
                 </CardActions>
-                <CardMenu style={{color: '#fff'}}>
-                  <IconButton name="share" />
-                </CardMenu>
               </Card>
             </div>    
           )
@@ -69,9 +63,6 @@ class Projects extends Component {
                 <CardActions border>
                   <Button className="floaterCenter" onClick={(e)=>this.butClick(e,'https://play.google.com/store/apps/details?id=com.sharath.urgeblood&hl=en')} colored>Live Demo</Button>
                 </CardActions>
-                <CardMenu style={{color: '#fff'}}>
-                  <IconButton name="share" />
-                </CardMenu>
               </Card>
     
               {/* Project 2 */}
@@ -83,9 +74,6 @@ class Projects extends Component {
                 <CardActions border>
                   <Button className="floaterCenter" onClick={(e)=>this.butClick(e,'https://play.google.com/store/apps/details?id=com.sharath.mind&hl=en')} colored>Live Demo</Button>
                 </CardActions>
-                <CardMenu style={{color: '#fff'}}>
-                  <IconButton name="share" />
-                </CardMenu>
               </Card>
             </div>
           )
