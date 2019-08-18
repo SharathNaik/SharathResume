@@ -26,7 +26,7 @@ class Projects extends Component {
             <div className="projects-grid">
               {/* Project 1 */}
               <Card shadow={5} style={{minWidth: '450', margin: 'auto',borderRadius:'10%'}}>
-                <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >Resume ReactJS</CardTitle>
+                <CardTitle style={{color: '#000', height: '176px', background: 'url(https://sharathnaik.github.io/SharathResume/images/ReactJS.png) center / cover'}} >Resume ReactJS</CardTitle>
                 <CardText>
                   This website is built using ReactJS.
                 </CardText>
@@ -38,7 +38,7 @@ class Projects extends Component {
     
               {/* Project 2 */}
               <Card shadow={5} style={{minWidth: '450', margin: 'auto',borderRadius:'10%'}}>
-                <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >Bootstrap Website</CardTitle>
+                <CardTitle style={{color: '#000', height: '176px', background: 'url(https://sharathnaik.github.io/SharathResume/images/bootstrap-stack.png) center / cover'}} >Bootstrap Website</CardTitle>
                 <CardText>
                   This website is built using Bootstrap 4.
                 </CardText>
@@ -56,7 +56,7 @@ class Projects extends Component {
             <div className="projects-grid">
               {/* Project 1 */}
               <Card shadow={5} style={{minWidth: '450', margin: 'auto',borderRadius:'10%'}}>
-                <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >UrgeBlood</CardTitle>
+                <CardTitle style={{color: '#000', height: '176px', background: 'url(https://sharathnaik.github.io/SharathResume/images/urgeblood.png) center / cover'}} >UrgeBlood</CardTitle>
                 <CardText>
                   This website is built using Ionic-Cordova for Android.
                 </CardText>
@@ -67,7 +67,7 @@ class Projects extends Component {
     
               {/* Project 2 */}
               <Card shadow={5} style={{minWidth: '450', margin: 'auto',borderRadius:'10%'}}>
-                <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >Mind Reader</CardTitle>
+                <CardTitle style={{color: '#000', height: '176px', background: 'url(https://sharathnaik.github.io/SharathResume/images/mindreader.png) center / cover'}} >Mind Reader</CardTitle>
                 <CardText>
                   This website is built using pure Java Native code.
                 </CardText>
