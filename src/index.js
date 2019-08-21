@@ -11,7 +11,7 @@ import 'react-mdl/extra/material.js';
 
 
 ReactDOM.render(
-  <BrowserRouter basename={'/SharathResume'}>
+  <BrowserRouter>
   <App />
   </BrowserRouter>,
   document.getElementById('root')
