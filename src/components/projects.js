@@ -75,6 +75,17 @@ class Projects extends Component {
                   <Button className="floaterCenter" onClick={(e)=>this.butClick(e,'https://play.google.com/store/apps/details?id=com.sharath.mind&hl=en')} colored>Live Demo</Button>
                 </CardActions>
               </Card>
+
+              {/* Project 3 */}
+              <Card shadow={5} style={{minWidth: '450', margin: 'auto',borderRadius:'10%'}}>
+                <CardTitle style={{color: '#000', height: '176px', background: 'url(https://sharathnaik.github.io/SharathResume/images/tictactoe.png) center / cover'}} >XO : Beat Me</CardTitle>
+                <CardText>
+                  This App is built using Google Flutter for Android. A Tictoetoe Puzzle with AI ALgorithm.
+                </CardText>
+                <CardActions border>
+                  <Button className="floaterCenter" onClick={(e)=>this.butClick(e,'https://play.google.com/store/apps/details?id=com.sharath.tictactoe&hl=en')} colored>Live Demo</Button>
+                </CardActions>
+              </Card>
             </div>
           )
 
