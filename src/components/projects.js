@@ -31,7 +31,7 @@ class Projects extends Component {
                   This website is built using ReactJS.
                 </CardText>
                 <CardActions border>
-                  <Button className="floaterLeft" onClick={(e)=>this.butClick(e,'https://sharathnaik.github.io/SharathResume/')} colored>GitHub</Button>
+                  <Button className="floaterLeft" onClick={(e)=>this.butClick(e,'https://github.com/SharathNaik/SharathResume/')} colored>GitHub</Button>
                   <Button className="floaterRight" onClick={(e)=>this.butClick(e,'https://sharathnaik.github.io/SharathResume/')} colored>Live Demo</Button>
                 </CardActions>
               </Card>
@@ -58,7 +58,7 @@ class Projects extends Component {
               <Card shadow={5} style={{minWidth: '450', margin: 'auto',borderRadius:'10%'}}>
                 <CardTitle style={{color: '#000', height: '176px', background: 'url(https://sharathnaik.github.io/SharathResume/images/urgeblood.png) center / cover'}} >UrgeBlood</CardTitle>
                 <CardText>
-                  This website is built using Ionic-Cordova for Android.
+                  This App is built using Ionic-Cordova for Android. App targets to Serve the Blood for Needy.
                 </CardText>
                 <CardActions border>
                   <Button className="floaterCenter" onClick={(e)=>this.butClick(e,'https://play.google.com/store/apps/details?id=com.sharath.urgeblood&hl=en')} colored>Live Demo</Button>
@@ -69,10 +69,21 @@ class Projects extends Component {
               <Card shadow={5} style={{minWidth: '450', margin: 'auto',borderRadius:'10%'}}>
                 <CardTitle style={{color: '#000', height: '176px', background: 'url(https://sharathnaik.github.io/SharathResume/images/mindreader.png) center / cover'}} >Mind Reader</CardTitle>
                 <CardText>
-                  This website is built using pure Java Native code.
+                  This App is built using pure Java Native for Android. A mathematical Puzzle to solve.
                 </CardText>
                 <CardActions border>
                   <Button className="floaterCenter" onClick={(e)=>this.butClick(e,'https://play.google.com/store/apps/details?id=com.sharath.mind&hl=en')} colored>Live Demo</Button>
+                </CardActions>
+              </Card>
+
+              {/* Project 3 */}
+              <Card shadow={5} style={{minWidth: '450', margin: 'auto',borderRadius:'10%'}}>
+                <CardTitle style={{color: '#000', height: '176px', background: 'url(https://sharathnaik.github.io/SharathResume/images/tictactoe.png) center / cover'}} >XO : Beat Me</CardTitle>
+                <CardText>
+                  This App is built using Google Flutter for Android. A Tictoetoe Puzzle with AI ALgorithm.
+                </CardText>
+                <CardActions border>
+                  <Button className="floaterCenter" onClick={(e)=>this.butClick(e,'https://play.google.com/store/apps/details?id=com.sharath.tictactoe&hl=en')} colored>Live Demo</Button>
                 </CardActions>
               </Card>
             </div>
