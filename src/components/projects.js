@@ -31,8 +31,8 @@ class Projects extends Component {
                   This website is built using ReactJS.
                 </CardText>
                 <CardActions border>
-                  <Button className="floaterLeft" onClick={(e)=>this.butClick(e,'https://github.com/SharathNaik/Resume')} colored>GitHub</Button>
-                  <Button className="floaterRight" onClick={(e)=>this.butClick(e,'https://sharathnaik.github.io/Resume/')} colored>Live Demo</Button>
+                  <Button className="floaterLeft" onClick={(e)=>this.butClick(e,'https://github.com/SharathNaik/SharathResume')} colored>GitHub</Button>
+                  <Button className="floaterRight" onClick={(e)=>this.butClick(e,'https://sharathnaik.github.io/SharathResume/')} colored>Live Demo</Button>
                 </CardActions>
               </Card>
     

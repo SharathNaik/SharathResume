@@ -14,7 +14,7 @@ var sortByCategory = '';
 
 const colourOptions = [
   { value: 'knowledge', label: 'Choose', color: 'black'},
-  { value: 'achievement', label: '', color: '#00B8D9' ,isFixed: true},
+  { value: 'achievement', label: 'Achievement', color: '#00B8D9' ,isFixed: true},
   { value: 'apps-android', label: 'Android Apps', color: '#0052CC'},//isDisabled: true 
   { value: 'apps-windowsPhone', label: 'Windows Phone Apps', color: '#5243AA' },
   { value: 'apps-windows10', label: 'Windows 10 Apps', color: '#FF5630' },//, isFixed: true
@@ -24,7 +24,8 @@ const colourOptions = [
 
 const sortOptions = [
   { value: '', label: 'Choose' },
-  { value: 'data-title', label: 'Title' },
+  { value: 'data-title', label: 'Category' },
+  { value: 'data-header', label: 'Title' },
   { value: 'data-year', label: 'Year' }
 ];
 
