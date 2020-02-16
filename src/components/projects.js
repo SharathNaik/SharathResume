@@ -28,7 +28,7 @@ class Projects extends Component {
               <Card shadow={5} style={{minWidth: '450', margin: 'auto',borderRadius:'10%'}}>
                 <CardTitle style={{color: '#000', height: '176px', background: 'url(https://sharathnaik.github.io/SharathResume/images/ReactJS.png) center / cover'}} >Resume ReactJS</CardTitle>
                 <CardText>
-                  This website is built using ReactJS.
+                  Portfolio website built to showcase the User Profile.
                 </CardText>
                 <CardActions border>
                   <Button className="floaterLeft" onClick={(e)=>this.butClick(e,'https://github.com/SharathNaik/SharathResume')} colored>GitHub</Button>
@@ -40,7 +40,7 @@ class Projects extends Component {
               <Card shadow={5} style={{minWidth: '450', margin: 'auto',borderRadius:'10%'}}>
                 <CardTitle style={{color: '#000', height: '176px', background: 'url(https://sharathnaik.github.io/SharathResume/images/bootstrap-stack.png) center / cover'}} >Bootstrap Website</CardTitle>
                 <CardText>
-                  This website is built using Bootstrap 4.
+                  Complete Website built to showcase the Responsiveness on devices.
                 </CardText>
                 <CardActions border>
                   <Button className="floaterLeft" onClick={(e)=>this.butClick(e,'https://github.com/SharathNaik/Promo')} colored>GitHub</Button>
@@ -58,7 +58,7 @@ class Projects extends Component {
               <Card shadow={5} style={{minWidth: '450', margin: 'auto',borderRadius:'10%'}}>
                 <CardTitle style={{color: '#000', height: '176px', background: 'url(https://sharathnaik.github.io/SharathResume/images/urgeblood.png) center / cover'}} >UrgeBlood</CardTitle>
                 <CardText>
-                  This website is built using Ionic-Cordova for Android.
+                  UrgeBlood is developed to serve the Blood to needy people by providing an connection between the Blood Don0r and the Requester.
                 </CardText>
                 <CardActions border>
                   <Button className="floaterCenter" onClick={(e)=>this.butClick(e,'https://play.google.com/store/apps/details?id=com.sharath.urgeblood&hl=en')} colored>Live Demo</Button>
@@ -69,7 +69,7 @@ class Projects extends Component {
               <Card shadow={5} style={{minWidth: '450', margin: 'auto',borderRadius:'10%'}}>
                 <CardTitle style={{color: '#000', height: '176px', background: 'url(https://sharathnaik.github.io/SharathResume/images/mindreader.png) center / cover'}} >Mind Reader</CardTitle>
                 <CardText>
-                  This website is built using pure Java Native code.
+                  Mind Reader is an Puzzle Application allows the player to think.
                 </CardText>
                 <CardActions border>
                   <Button className="floaterCenter" onClick={(e)=>this.butClick(e,'https://play.google.com/store/apps/details?id=com.sharath.mind&hl=en')} colored>Live Demo</Button>
@@ -80,7 +80,7 @@ class Projects extends Component {
               <Card shadow={5} style={{minWidth: '450', margin: 'auto',borderRadius:'10%'}}>
                 <CardTitle style={{color: '#000', height: '176px', background: 'url(https://sharathnaik.github.io/SharathResume/images/tictactoe.png) center / cover'}} >XO : Beat Me</CardTitle>
                 <CardText>
-                  This App is built using Google Flutter for Android. A Tictoetoe Puzzle with AI ALgorithm.
+                  Tictoetoe Puzzle with AI algorithm and ability to take decision on it's on makes the App Distinct.
                 </CardText>
                 <CardActions border>
                   <Button className="floaterCenter" onClick={(e)=>this.butClick(e,'https://play.google.com/store/apps/details?id=com.sharath.tictactoe&hl=en')} colored>Live Demo</Button>
