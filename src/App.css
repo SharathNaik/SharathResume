@@ -1,254 +1,270 @@
-.header-color{
-    background: #833ab4;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.header-color {
+  background: #833ab4; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #fcb045,
+    #fd1d1d,
+    #833ab4
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #fcb045,
+    #fd1d1d,
+    #833ab4
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-
-
-
 
 /* landing Page CSS Start*/
 
-.landing-grid{
-    background: #833ab4;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.landing-grid {
+  background: #833ab4; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #fcb045,
+    #fd1d1d,
+    #833ab4
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #fcb045,
+    #fd1d1d,
+    #833ab4
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-    text-align: center;
-    /*position:fixed;*/
-    position:relative;
-    top: 0;
-    left:0;
-    width:100%;
-    height:100%;
+  text-align: center;
+  /*position:fixed;*/
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
-.avatar-img{
-    height: 250px;
-    /*padding-top:5em;*/
-    border-radius: 20%;
+.avatar-img {
+  height: 250px;
+  /*padding-top:5em;*/
+  border-radius: 20%;
 }
 
-.banner-text{
-    background-color: black;
-    opacity: 0.8;
-    width:75%;
-    margin:auto;
-    border-radius: 10px;
+.banner-text {
+  background-color: black;
+  opacity: 0.8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
 }
 
-.banner-text h1{
-    font-size: 60px;
-    font-weight: bold;
-    color:white;
+.banner-text h1 {
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
 }
 
 .banner-text hr {
-    border-top: 5px dotted white;
-    width: 50%;
-    margin: auto;
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
 }
 
 .banner-text p {
-    color: white;
-    font-size: 20px;
-    padding: 1em;
+  color: white;
+  font-size: 20px;
+  padding: 1em;
 }
 
 .social-links {
-    display: flex;
-    justify-content: space-between;
-    width: 50%;
-    margin: auto;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
 }
-  
+
 .social-links i {
-    color: white;
-    font-size: 5em;
-    padding: 8px;
+  color: white;
+  font-size: 5em;
+  padding: 8px;
 }
 
 /* landing Page CSS End*/
 
-
 /* Projects CSS Start */
 
 .projects-grid {
-    display: flex;
+  display: flex;
 }
-  
-/* Projects CSS End */
 
+/* Projects CSS End */
 
 /* Contact Page CSS Start */
 
 .contact-body {
-margin: auto;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    justify-content: center;
-    padding-top: 2em;
+  margin: auto;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
 }
 
 .contact-grid {
-    text-align: center;
-    justify-content: center;
-    width: 80%;
-    height: 550px;
-    background: white;
-    color: black;
-    margin-bottom: 20px;
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
 }
 
 .contact-grid h2 {
-    font-family: 'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
 }
 
 .contact-grid p {
-    font-family: 'Oxygen', sans-serif;
-    font-weight: bold;
+  font-family: "Oxygen", sans-serif;
+  font-weight: bold;
 }
 
 .contact-grid hr {
-    border-top: 5px dotted black;
-    width: 50%;
-    margin: auto;
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
 }
 
 .contact-list i {
-    font-size: 40px;
-    padding-right: 5rem;
+  font-size: 40px;
+  padding-right: 5rem;
 }
 
-.contact-list .contact-list-content{
-    font-size: 28px;
+.contact-list .contact-list-content {
+  font-size: 28px;
 }
-  
-  
+
 /* Contact Page CSS End */
-
 
 /* Resume Page CSS Start */
 .resume-right-col {
-    background: #27221F;
-    color: white;
-    padding: 2em;
+  background: #27221f;
+  color: white;
+  padding: 2em;
 }
 
-.skillspan{
-    width:5%;
+.skillspan {
+  width: 5%;
 }
 /* Resume page CSS End */
 
-
 /* About Me CSS Start */
-.aboutme-grid{
-    
-    background: #833ab4;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.aboutme-grid {
+  background: #833ab4; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #fcb045,
+    #fd1d1d,
+    #833ab4
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #fcb045,
+    #fd1d1d,
+    #833ab4
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-    text-align: center;
-    position:relative;
-    top: 0;
-    left:0;
-    width:100%;
-    height:100%;
+  text-align: center;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /* About Me CSS End */
 
-
-
 /* Select Componen CSS Start */
-.dropdownOpt{
-    /*z-index: 1;*/
+.dropdownOpt {
+  /*z-index: 1;*/
 }
 
-.floaterLeft{
-    float: left;
-    margin-left: 10% !important;
+.floaterLeft {
+  float: left;
+  margin-left: 10% !important;
 }
 
-.floaterRight{
-    float: right;
-    padding-right: 10% !important;
+.floaterRight {
+  float: right;
+  padding-right: 10% !important;
 }
 
-.floaterCenter{
-    margin-left: 35% !important;
+.floaterCenter {
+  margin-left: 35% !important;
 }
 /* Select Componen CSS End */
 
-
-
 /* Media Queries Start*/
 
-@media (max-width: 767px) { 
-    
-    .banner-text h1{
-        font-size:30px;
-    }
+@media (max-width: 767px) {
+  .banner-text h1 {
+    font-size: 30px;
+  }
 
-    .social-links{
-        width:100%;
-    }
+  .social-links {
+    width: 100%;
+  }
 
-    .skillspan{
-        width:45%;
-    }
+  .skillspan {
+    width: 45%;
+  }
 
-    .aboutme-grid{
-        height: auto;
-    }
+  .aboutme-grid {
+    height: auto;
+  }
 
-    .item {
-        color: white;
-        cursor: pointer;
-        height: 70px !important;
-        margin: 8% !important;
-        position: absolute;
-        width: 60% !important;
-        border: 1px solid #d4d4d5;
-        border-radius: 6% !important;
-        margin-left: 17% !important;
-        margin-right: 15% !important;
-        padding: 5% !important;
-    }
+  .item {
+    color: white;
+    cursor: pointer;
+    height: 70px !important;
+    margin: 8% !important;
+    position: absolute;
+    width: 60% !important;
+    border: 1px solid #d4d4d5;
+    border-radius: 6% !important;
+    margin-left: 17% !important;
+    margin-right: 15% !important;
+    padding: 5% !important;
+  }
 
-    .custListItem{
-        width:100%;
-    }
+  .custListItem {
+    width: 100%;
+  }
 
-    .custListItem span {
-        width:100%;
-    }
+  .custListItem span {
+    width: 100%;
+  }
 
-    .iItem{
-        width:100%;
-    }
+  .iItem {
+    width: 100%;
+  }
 
-    .contact-list .contact-list-content{
-        font-size:20px;
-    }
-    
-    .projects-grid{
-        display: table;
-    }
+  .contact-list .contact-list-content {
+    font-size: 20px;
+  }
 
-    .projects-grid > div:first-child {
-        margin-bottom: 5% !important;
-    }
+  .projects-grid {
+    display: table;
+  }
 
-    .category-tabs > div:first-child {
-        padding-top:10% !important;
-    }
+  .projects-grid > div {
+    margin-bottom: 5% !important;
+  }
 
-    .dropGrid {
-        width:90% !important;
-        padding-top: 10% !important;
-    }
+  .category-tabs > div:first-child {
+    padding-top: 10% !important;
+  }
+
+  .dropGrid {
+    width: 90% !important;
+    padding-top: 10% !important;
+  }
 }
 
 /* Media Queries End */
